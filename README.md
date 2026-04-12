@@ -220,39 +220,7 @@ Returns: `score (0–10)`, `verdict`, `strengths`, `improvements`, `model_answer
 
 ---
 
-## 🔗 More Projects
-
-| Project | Stack | Description |
-|---|---|---|
-| [VoidCheck](https://github.com/rizzit17/VoidCheck) | React, Groq LLaMA, LangChain, Monaco | AI code review platform with health scores & categorized issue detection |
-| [BreakBias](https://github.com/rizzit17/BreakBias) | React, Gemini API, Firebase, Framer Motion | AI workplace bias simulator with multi-axis rubric evaluation |
-| [SmartAgri](https://github.com/rizzit17/SmartAgri) | Python, Streamlit, scikit-learn, MQTT | IoT smart farming system with ML crop recommendations |
-
----
-
-## 🙌 Acknowledgements
-
-- [Groq](https://groq.com) — blazing fast LLaMA inference
-- [Firebase](https://firebase.google.com) — auth + database
-- [Vercel](https://vercel.com) — deployment
-- [Codedex.io](https://codedex.io) — pixel art design inspiration
-- [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P) — the perfect retro font
-
----
-
-## 👨‍💻 Author
-
-**Rishit Chaudhary**  
-B.Tech CSE @ VIT Vellore · CGPA 8.60  
-[![Portfolio](https://img.shields.io/badge/Portfolio-rishit--cv.vercel.app-7c3aed?style=flat&logo=vercel&logoColor=white)](https://rishit-cv.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/rishit-chaudhary17)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/rizzit17)
-[![Email](https://img.shields.io/badge/Email-rishitwork28@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:rishitwork28@gmail.com)
-
----
-
 <div align="center">
-
 
 ⭐ **Star this repo if you found it useful!**
 
