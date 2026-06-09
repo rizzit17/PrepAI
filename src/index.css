@@ -1,4 +1,4 @@
-﻿@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Inter:wght@400;500;600;700;800&family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Inter:wght@400;500;600;700;800&family=Press+Start+2P&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -43,15 +43,25 @@
     margin: 0;
     min-width: 320px;
     min-height: 100vh;
-    background:
-      linear-gradient(rgba(168, 85, 247, 0.04) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(168, 85, 247, 0.04) 1px, transparent 1px),
-      radial-gradient(circle at top center, rgba(236, 72, 153, 0.14), transparent 30%),
-      radial-gradient(circle at 20% 0%, rgba(168, 85, 247, 0.18), transparent 26%),
-      var(--bg-deep);
-    background-size: 32px 32px, 32px 32px, auto, auto, auto;
-    color: var(--text-lavender);
-    font-family: "Inter", sans-serif;
+    background-color: var(--bg-deep);
+    background-image:
+      linear-gradient(rgba(168, 85, 247, 0.15) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(168, 85, 247, 0.15) 1px, transparent 1px);
+    background-size: 50px 50px;
+    background-position: center center;
+    color: var(--text-main);
+    font-family: "Nunito", sans-serif;
+    animation: gridSlide 20s linear infinite;
+  }
+
+  @keyframes gridSlide {
+    0% {
+      background-position: 0 0;
+    }
+
+    100% {
+      background-position: 50px 50px;
+    }
   }
 
   #root {
@@ -102,7 +112,21 @@
       linear-gradient(90deg, rgba(168, 85, 247, 0.04) 1px, transparent 1px);
     background-size: 32px 32px;
     pointer-events: none;
-    opacity: 0.55;
+    background: radial-gradient(circle at 50% 0%, rgba(168, 85, 247, 0.25), transparent 60%);
+    z-index: -1;
+    animation: pulseGlow 8s ease-in-out infinite alternate;
+  }
+
+  @keyframes pulseGlow {
+    0% {
+      opacity: 0.5;
+      transform: scale(1);
+    }
+
+    100% {
+      opacity: 1;
+      transform: scale(1.1);
+    }
   }
 
   .game-shell {
