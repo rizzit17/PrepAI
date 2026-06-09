@@ -21,7 +21,7 @@ multi-axis answer scoring, and gamified session tracking.**
 
 <br/>
 
-[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-prepai.vercel.app-ec4899?style=for-the-badge)]([https://prepai.vercel.app](https://prep-ai-flame-eight.vercel.app/))
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-prepai.vercel.app-ec4899?style=for-the-badge)]([https://prep-ai-flame-eight.vercel.app/](https://prep-ai-flame-eight.vercel.app/))
 [![React](https://img.shields.io/badge/React%2018-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev)
 [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)
 [![Groq](https://img.shields.io/badge/Groq%20LLaMA%203.3%2070B-f55036?style=for-the-badge&logo=meta&logoColor=white)](https://groq.com)
